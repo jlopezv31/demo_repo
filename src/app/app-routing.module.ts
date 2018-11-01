@@ -7,6 +7,7 @@ import { PacienteEdicionComponent } from './pages/paciente/paciente-edicion/paci
 
 const routes: Routes = [
   {
+    //Se va agregar para probar el commit
     path: 'paciente', component: PacienteComponent, children: [
       { path: 'nuevo', component: PacienteEdicionComponent },
       { path: 'edicion/:id', component: PacienteEdicionComponent }
